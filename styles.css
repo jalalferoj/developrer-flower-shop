@@ -106,6 +106,16 @@ body {
     margin-right: auto;
     display: inline-flex;
 }
-  
-  
+.arch-title{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+}
+.arch-info{
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 230px;
+    text-decoration: underline;
+}
   
