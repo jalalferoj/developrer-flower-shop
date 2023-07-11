@@ -2,10 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     
 }
-.main{
-    max-width: 1140px;
-    margin: o auto;
-}
+
 .btn-primary{
     background: #E55473;
     border-radius: 5px;
@@ -118,4 +115,46 @@ body {
     margin-left: 230px;
     text-decoration: underline;
 }
-  
+.main{
+    width: 1922px;
+    height: 620px;
+}
+.deal{
+    padding: 30px;
+    border-radius: 10px;
+    background: #272727;
+    margin: 0px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    text-align: center;
+}
+.deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.sign-up{
+    background: #E55473;
+    border-radius: 5px;
+    border: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 35px;
+    margin: 50px 240px 0px 245px;
+}
+.text-primary{
+    color: #E55473;
+}
