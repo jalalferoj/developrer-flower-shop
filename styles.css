@@ -51,7 +51,7 @@ body {
 .features{
     padding: 130px;
     color: #FFFFFF;
-    background: #FFFFFF;
+    background: #FFF;
     margin: 130px 0;
 
 }
@@ -127,6 +127,8 @@ body {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     text-align: center;
+    justify-content: space-between;
+
 }
 .deal-title{
     color: #272727;
@@ -158,3 +160,58 @@ body {
 .text-primary{
     color: #E55473;
 }
+.off{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 240px 0px 145px;
+}
+.deal .hotdeal-pic{
+    width: 500px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+.insta{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.insta-title{
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+  
+.insta-pic{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+  
+.insta-pic img {
+    width: 100%;
+    height: auto;
+    
+}
+  
