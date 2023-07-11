@@ -209,9 +209,102 @@ body {
     text-align: center;
 }
   
-.insta-pic img {
+.insta-pic img{
     width: 100%;
     height: auto;
     
 }
-  
+.subscribe{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.subscribe-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 48px;
+    line-height: 200px;
+}
+.subscribe-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+}
+.image-container{
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(./images/Rectangle\ 9.png);
+    margin: 0px 0px 0px -340px;  
+}
+.image-container img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.email-form input[type="email"] {
+    width: 600px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .email-form button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff004f;
+    color: #fff;
+    cursor: pointer;
+  }
+  .email-form button[type="submit"]:hover {
+    background-color: #e60046;
+  }
+footer{
+    display: flex;
+    gap: 120px;
+    background: #111010;
+    margin-top: 100px;
+    padding: 130px 200px;
+    
+    width: 1922px;
+    height: 449px;
+}
+.footer-title{
+    display: flex;
+    gap: 20px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px 600px;
+}
+.footer-description{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 40px;
+    text-align: center;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+}
